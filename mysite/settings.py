@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%bd=gyykx)gyin_i3t9s%hwm9z02+s*o^43_=9or0i&)^f6twc
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
-
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
